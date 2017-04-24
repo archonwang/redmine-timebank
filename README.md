@@ -18,7 +18,7 @@ Minimum system requirements
 ---------------------------
 
 * GNU/Linux operating system
-* Redmine >= 3.2
+* Redmine ~3.2
 * Ruby on Rails >= 4.2
 * Ruby >= 1.9.3
 * Git >= 2.1.4
@@ -49,11 +49,7 @@ Configuration procedure
 
 Once installed, to configure the plugin you will first need to go to `Administration -> Plugins -> Redmine Time Bank -> Configuration`
 
-When you're there, you have some inputs to configure the plugin :
-
-* Story tracker
-* Task tracker
-* Bug tracker
+When you're there, you choose the trackers that are considered as stories (ex: Story, Bug, EDS, etc..). Hold CTRL + click the trackers that you want to choose, after this you can save. The plugin should be now ready to use on all projects that have at least one version.
 
 ![Plugin settings screenshot](https://github.com/savoirfairelinux/redmine-timebank/raw/master/screenshots/settings.jpg)
 
